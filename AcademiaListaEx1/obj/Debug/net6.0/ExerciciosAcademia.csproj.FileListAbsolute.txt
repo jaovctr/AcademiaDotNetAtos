@@ -1,0 +1,15 @@
+C:\Users\jvejv\source\repos\ExerciciosAcademia\bin\Debug\net6.0\ExerciciosAcademia.exe
+C:\Users\jvejv\source\repos\ExerciciosAcademia\bin\Debug\net6.0\ExerciciosAcademia.deps.json
+C:\Users\jvejv\source\repos\ExerciciosAcademia\bin\Debug\net6.0\ExerciciosAcademia.runtimeconfig.json
+C:\Users\jvejv\source\repos\ExerciciosAcademia\bin\Debug\net6.0\ExerciciosAcademia.dll
+C:\Users\jvejv\source\repos\ExerciciosAcademia\bin\Debug\net6.0\ExerciciosAcademia.pdb
+C:\Users\jvejv\source\repos\ExerciciosAcademia\obj\Debug\net6.0\ExerciciosAcademia.csproj.AssemblyReference.cache
+C:\Users\jvejv\source\repos\ExerciciosAcademia\obj\Debug\net6.0\ExerciciosAcademia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jvejv\source\repos\ExerciciosAcademia\obj\Debug\net6.0\ExerciciosAcademia.AssemblyInfoInputs.cache
+C:\Users\jvejv\source\repos\ExerciciosAcademia\obj\Debug\net6.0\ExerciciosAcademia.AssemblyInfo.cs
+C:\Users\jvejv\source\repos\ExerciciosAcademia\obj\Debug\net6.0\ExerciciosAcademia.csproj.CoreCompileInputs.cache
+C:\Users\jvejv\source\repos\ExerciciosAcademia\obj\Debug\net6.0\ExerciciosAcademia.dll
+C:\Users\jvejv\source\repos\ExerciciosAcademia\obj\Debug\net6.0\refint\ExerciciosAcademia.dll
+C:\Users\jvejv\source\repos\ExerciciosAcademia\obj\Debug\net6.0\ExerciciosAcademia.pdb
+C:\Users\jvejv\source\repos\ExerciciosAcademia\obj\Debug\net6.0\ExerciciosAcademia.genruntimeconfig.cache
+C:\Users\jvejv\source\repos\ExerciciosAcademia\obj\Debug\net6.0\ref\ExerciciosAcademia.dll

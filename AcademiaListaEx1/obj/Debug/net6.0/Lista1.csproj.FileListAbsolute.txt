@@ -1,0 +1,15 @@
+C:\Users\jvejv\source\repos\AcademiaDotNetAtos\AcademiaListaEx1\bin\Debug\net6.0\Lista1.exe
+C:\Users\jvejv\source\repos\AcademiaDotNetAtos\AcademiaListaEx1\bin\Debug\net6.0\Lista1.deps.json
+C:\Users\jvejv\source\repos\AcademiaDotNetAtos\AcademiaListaEx1\bin\Debug\net6.0\Lista1.runtimeconfig.json
+C:\Users\jvejv\source\repos\AcademiaDotNetAtos\AcademiaListaEx1\bin\Debug\net6.0\Lista1.dll
+C:\Users\jvejv\source\repos\AcademiaDotNetAtos\AcademiaListaEx1\bin\Debug\net6.0\Lista1.pdb
+C:\Users\jvejv\source\repos\AcademiaDotNetAtos\AcademiaListaEx1\obj\Debug\net6.0\Lista1.csproj.AssemblyReference.cache
+C:\Users\jvejv\source\repos\AcademiaDotNetAtos\AcademiaListaEx1\obj\Debug\net6.0\Lista1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jvejv\source\repos\AcademiaDotNetAtos\AcademiaListaEx1\obj\Debug\net6.0\Lista1.AssemblyInfoInputs.cache
+C:\Users\jvejv\source\repos\AcademiaDotNetAtos\AcademiaListaEx1\obj\Debug\net6.0\Lista1.AssemblyInfo.cs
+C:\Users\jvejv\source\repos\AcademiaDotNetAtos\AcademiaListaEx1\obj\Debug\net6.0\Lista1.csproj.CoreCompileInputs.cache
+C:\Users\jvejv\source\repos\AcademiaDotNetAtos\AcademiaListaEx1\obj\Debug\net6.0\Lista1.dll
+C:\Users\jvejv\source\repos\AcademiaDotNetAtos\AcademiaListaEx1\obj\Debug\net6.0\refint\Lista1.dll
+C:\Users\jvejv\source\repos\AcademiaDotNetAtos\AcademiaListaEx1\obj\Debug\net6.0\Lista1.pdb
+C:\Users\jvejv\source\repos\AcademiaDotNetAtos\AcademiaListaEx1\obj\Debug\net6.0\Lista1.genruntimeconfig.cache
+C:\Users\jvejv\source\repos\AcademiaDotNetAtos\AcademiaListaEx1\obj\Debug\net6.0\ref\Lista1.dll

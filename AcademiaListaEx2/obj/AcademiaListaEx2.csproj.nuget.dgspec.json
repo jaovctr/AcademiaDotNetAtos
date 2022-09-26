@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jvejv\\Source\\Repos\\AcademiaDotNetAtos\\AcademiaListaEx1\\Lista1.csproj": {}
+    "C:\\Users\\jvejv\\source\\repos\\AcademiaDotNetAtos\\AcademiaListaEx2\\AcademiaListaEx2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jvejv\\Source\\Repos\\AcademiaDotNetAtos\\AcademiaListaEx1\\Lista1.csproj": {
+    "C:\\Users\\jvejv\\source\\repos\\AcademiaDotNetAtos\\AcademiaListaEx2\\AcademiaListaEx2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jvejv\\Source\\Repos\\AcademiaDotNetAtos\\AcademiaListaEx1\\Lista1.csproj",
-        "projectName": "Lista1",
-        "projectPath": "C:\\Users\\jvejv\\Source\\Repos\\AcademiaDotNetAtos\\AcademiaListaEx1\\Lista1.csproj",
+        "projectUniqueName": "C:\\Users\\jvejv\\source\\repos\\AcademiaDotNetAtos\\AcademiaListaEx2\\AcademiaListaEx2.csproj",
+        "projectName": "AcademiaListaEx2",
+        "projectPath": "C:\\Users\\jvejv\\source\\repos\\AcademiaDotNetAtos\\AcademiaListaEx2\\AcademiaListaEx2.csproj",
         "packagesPath": "C:\\Users\\jvejv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jvejv\\Source\\Repos\\AcademiaDotNetAtos\\AcademiaListaEx1\\obj\\",
+        "outputPath": "C:\\Users\\jvejv\\source\\repos\\AcademiaDotNetAtos\\AcademiaListaEx2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

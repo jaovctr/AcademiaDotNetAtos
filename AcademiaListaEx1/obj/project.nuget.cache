@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "3hQL53HlQIyrdlWAmqzYcg34aijHCAEHecfOWHOY+ljn1sWZ6B4DOGWFIMxFDsVpfQiAUgfx9AFOIlAQmRX0Wg==",
+  "dgSpecHash": "CpLa86sq7hVonhEY4qY8EYZwNVPrXXFhad52OlizcAjCKN2QPj87fJ9jRJR6NbwGzfjiNrbZKfgNu2w7yHesFQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jvejv\\Source\\Repos\\AcademiaDotNetAtos\\AcademiaListaEx1\\Lista1.csproj",
+  "projectFilePath": "C:\\Users\\jvejv\\Source\\Repos\\jaovctr\\AcademiaDotNetAtos\\AcademiaListaEx1\\Lista1.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema ao ler o arquivo de cache C:\\Users\\jvejv\\Source\\Repos\\jaovctr\\AcademiaDotNetAtos\\AcademiaListaEx1\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

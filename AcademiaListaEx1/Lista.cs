@@ -261,7 +261,7 @@ namespace ExerciciosAcademia
             custoBicicleta = double.Parse(Console.ReadLine());
             Console.WriteLine("Digite a quantidade de bicicletas vendidas:");
             vendidas = int.Parse(Console.ReadLine());
-            double comissao = ((custoBicicleta + (custoBicicleta * 0.5)) * 0.15) * vendidas;
+            double comissao = ((custoBicicleta ) * 0.15) * vendidas;
             double salarioFinal = (2 * salarioMinimo) + comissao;
             Console.WriteLine("Salário final: R$:" + salarioFinal);
         }

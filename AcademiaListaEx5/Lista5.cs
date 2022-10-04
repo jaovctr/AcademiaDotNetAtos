@@ -23,6 +23,8 @@ namespace AcademiaListaEx5
             questao6();
             /*QUESTÃO 7*/
             questao7();
+            /*QUESTÃO 8*/
+            questao8();
             /*QUESTÃO 9*/
             questao9();
             /*QUESTÃO 10*/
@@ -31,8 +33,19 @@ namespace AcademiaListaEx5
             questao11();
             /*QUESTÃO 12*/
             questao12();
+            /*QUESTÃO 13*/
+            questao13();
+            /*QUESTÃO 14*/
+            questao14();
+            /*QUESTÃO 15*/
+            questao15();
+            /*QUESTÃO 16*/
+            questao16();
+            /*QUESTÃO 17*/
+            questao17();
+
         }
-      
+
         public static void questao1()
         {
             int[,] matriz = new int[5, 3];
@@ -235,7 +248,7 @@ namespace AcademiaListaEx5
                 Console.WriteLine();
             }
         }
-        public static void questao9()
+        public static void questao8()
         {
             int[,] matriz = new int[4, 4];
             for (int i = 0; i < matriz.GetLength(0); i++)
@@ -265,7 +278,7 @@ namespace AcademiaListaEx5
                 Console.WriteLine();
             }
         }
-        public static void questao10()
+        public static void questao9()
         {
             int[,] matriz = new int[3, 3];
             for (int i = 0; i < matriz.GetLength(0); i++)
@@ -292,7 +305,7 @@ namespace AcademiaListaEx5
             }
             Console.WriteLine(numero + " não existe na matriz!");
         }              
-        public static void questao11()
+        public static void questao10()
         {
             int[,] A = new int[3, 3];
             int[,] B = new int[3, 3];
@@ -361,7 +374,7 @@ namespace AcademiaListaEx5
             Console.WriteLine("Geral:\nNa média: " + naMediaGeral + "\nAbaixo da média: " + abaixoMediaGeral + "\nAcima da média: " + acimaMediaGeral);
 
         }
-        public static void questao12()
+        public static void questao11()
         {
             double[,] A = new double[3, 3];
             for (int i = 0; i < A.GetLength(0); i++)
@@ -399,6 +412,207 @@ namespace AcademiaListaEx5
                 Console.WriteLine();
             }
 
+        }       
+        public static void questao12()
+        {
+            int[,] matriz = new int[3, 3];
+            for (int i = 0; i < matriz.GetLength(0); i++)
+            {
+                for (int j = 0; j < matriz.GetLength(1); j++)
+                {
+                    Console.WriteLine("Digite o elemento [" + (i + 1) + " " + (j + 1) + "] da matriz:");
+                    matriz[i, j] = int.Parse(Console.ReadLine());
+
+                }
+            }
+            for (int i = 0; i < matriz.GetLength(0); i++)
+            {
+                for (int j = 0; j < matriz.GetLength(1); j++)
+                {
+                    if((i+j)%2==0)
+                        Console.WriteLine("["+(i+1)+","+(j+1)+"] = " + matriz[i, j]);
+                }
+            }
+        }
+        public static void questao13()
+        {
+            int[,] matriz = new int[5, 5];
+            for (int i = 0; i < matriz.GetLength(0); i++)
+            {
+                for (int j = 0; j < matriz.GetLength(1); j++)
+                {
+                    Console.WriteLine("Digite o elemento [" + (i + 1) + " " + (j + 1) + "] da matriz:");
+                    matriz[i, j] = int.Parse(Console.ReadLine());
+                }
+            }
+            int somaDiagonalPrincipal = 0,somaDiagonalSecundaria=0;
+
+            for (int i = 0,j=matriz.GetLength(0)-1; i < matriz.GetLength(0); i++,j--)
+            {
+                somaDiagonalPrincipal += matriz[i, i];
+                somaDiagonalSecundaria+= matriz[i, j];
+                
+            }
+
+            if (somaDiagonalPrincipal == somaDiagonalSecundaria)
+            {
+                Console.WriteLine("Diagonais principal e secundária possuem soma igual a "+somaDiagonalPrincipal);
+            }
+            else
+            {
+                Console.WriteLine("Diagonais principal e secundária tem somas iguais a "+somaDiagonalPrincipal+" e "+somaDiagonalSecundaria+" respectivamente.");
+            }
+
+
+
+        }
+        public static void questao14()
+        {            
+            int[,] matriz = new int[5, 5];
+            for (int i = 0; i < matriz.GetLength(0); i++)
+            {
+                for (int j = 0; j < matriz.GetLength(1); j++)
+                {
+                    Console.WriteLine("Digite o elemento [" + (i + 1) + " " + (j + 1) + "] da matriz:");
+                    matriz[i, j] = int.Parse(Console.ReadLine());
+                }
+            }
+            bool diagonaisIguais = true;
+            for (int i = 0, j = matriz.GetLength(0) - 1; i < matriz.GetLength(0); i++, j--)
+            {
+                if (matriz[i, i] != matriz[i, j])
+                {
+                    diagonaisIguais = false;
+                    break;
+                }
+                
+
+            }
+            if(diagonaisIguais)
+                Console.WriteLine("As diagonais são iguais");
+            else
+                Console.WriteLine("As diagonais são diferentes");
+
+        }
+        public static void questao15()
+        {
+            int[,] A = new int[4, 4];
+            int[,] B = new int[4, 4];
+            for (int i = 0; i < A.GetLength(0); i++)
+            {
+                for (int j = 0; j < A.GetLength(1); j++)
+                {
+                    Console.WriteLine("Digite o elemento [" + (i + 1) + " " + (j + 1) + "] da matriz 1:");
+                    A[i, j] = int.Parse(Console.ReadLine());
+                }
+            }
+            for (int i = 0; i < B.GetLength(0); i++)
+            {
+                for (int j = 0; j < B.GetLength(1); j++)
+                {
+                    Console.WriteLine("Digite o elemento [" + (i + 1) + " " + (j + 1) + "] da matriz 2:");
+                    B[i, j] = int.Parse(Console.ReadLine());                   
+                }
+            }
+            int[,] soma = new int[4, 4];
+            for (int i = 0; i < soma.GetLength(0); i++)
+            {
+                for (int j = 0; j < soma.GetLength(1); j++)
+                {
+                    soma[i, j] = A[i, j] + B[i, j];
+
+                }
+            }
+            for (int i = 0; i < soma.GetLength(0); i++)
+            {
+                for (int j = 0; j < soma.GetLength(1); j++)
+                {
+                    Console.Write(soma[i, j] + " ");
+                }
+                Console.WriteLine();
+            }
+
+        }        
+        public static void questao16()
+        {
+            int[,] matriz = new int[3, 4];
+            for (int i = 0; i < matriz.GetLength(0); i++)
+            {
+                for (int j = 0; j < matriz.GetLength(1); j++)
+                {
+                    Console.WriteLine("Digite o elemento [" + (i + 1) + " " + (j + 1) + "] da matriz:");
+                    matriz[i, j] = int.Parse(Console.ReadLine());
+                }
+            }
+            int[,] transposta = new int[4, 3];
+            for (int i = 0; i < matriz.GetLength(0); i++)
+            {
+                for (int j = 0; j < matriz.GetLength(1); j++)
+                {
+                    transposta[j, i] = matriz[i, j];                
+                }
+            }
+            Console.WriteLine("Matriz original");
+            for (int i = 0; i < matriz.GetLength(0); i++)
+            {
+                for (int j = 0; j < matriz.GetLength(1); j++)
+                {
+                    Console.Write(matriz[i, j] + " ");
+                }
+                Console.WriteLine();
+            }
+            Console.WriteLine("Matriz transposta");
+            for (int i = 0; i < transposta.GetLength(0); i++)
+            {
+                for (int j = 0; j < transposta.GetLength(1); j++)
+                {
+                    Console.Write(transposta[i, j] + " ");
+                }
+                Console.WriteLine();
+            }
+
+        }
+        public static void questao17()
+        {
+            int[,] matriz = new int[10, 10];
+            for (int i = 0; i < matriz.GetLength(0); i++)
+            {
+                for (int j = 0; j < matriz.GetLength(1); j++)
+                {
+                    Console.WriteLine("Digite o elemento [" + (i + 1) + " " + (j + 1) + "] da matriz:");
+                    matriz[i, j] = int.Parse(Console.ReadLine());
+                }
+            }
+            int[] maxPos = new int[2];
+            int max = matriz[0,0];
+            for (int i = 0; i < matriz.GetLength(0); i++)
+            {
+                for (int j = 0; j < matriz.GetLength(1); j++)
+                {
+                    if (max < matriz[i, j])
+                    {
+                        max = matriz[i,j];
+                        maxPos[0] = i;
+                        maxPos[1] = j;
+                    }
+                    Console.Write(matriz[i, j] + " ");
+                }
+                Console.WriteLine();
+            }
+            int min = matriz[maxPos[0], 0];
+            int[] minPos = new int[2];
+            minPos[0] = maxPos[0];
+            for (int i = 0; i < matriz.GetLength(1); i++)
+            {
+                if (min > matriz[maxPos[0], i])
+                {
+                    min = matriz[maxPos[0], i];
+                    minPos[1] = i;
+                }
+            }
+
+            Console.WriteLine("Valor máximo: "+max+", na posição [" + maxPos[0] + "," + maxPos[1] +"]");
+            Console.WriteLine("Valor mínimo na linha do máximo: "+min+ ", na posição [" + minPos[0] + "," + minPos[1] + "]");
         }
     }
 }

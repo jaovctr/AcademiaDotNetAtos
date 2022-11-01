@@ -1,0 +1,156 @@
+#q1div1{
+    position: absolute;
+    background: blue;
+    padding-right: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 2px solid black;
+    margin: 5px;
+}
+#q1div2{
+    position: absolute;
+    background:red;
+    padding-right: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    top: 140px;
+    margin:5px;
+    border: 2px solid black;
+}
+#q1div3{
+    position: absolute;
+    background: green;
+    padding-right: 100%;
+    top:270px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 5px;;
+    border: 2px solid black;
+    
+}
+#q1div4{
+    position: absolute;
+    background: purple;
+    padding-right: 100%;
+    top:400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 5px;;
+    border: 2px solid black;
+}
+
+#q2div1{
+    position: absolute;
+    background:blue;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top:10px;
+    left:10px;
+}
+#q2div2{
+    position: absolute;
+    background:purple;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top:10px;
+    right:10px;
+}
+#q2div3{
+    position: absolute;
+    background:red;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    bottom:10px;
+    left: 10px;
+}
+#q2div4{
+    position: absolute;
+    background:green;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    bottom: 10px;
+    right: 10px;
+}
+
+#q3div1{
+    position: absolute;
+    background:blue;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    top:10px;
+    left:10px;
+    border-radius: 100%;
+}
+#q3div2{
+    position: absolute;
+    background:purple;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;;
+    top:10px;
+    right:10px;
+    border-radius: 100%;
+}
+#q3div3{
+    position: absolute;
+    background:red;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    bottom:10px;
+    left: 10px;
+    border-radius: 100%;
+}
+#q3div4{
+    position: absolute;
+    background:green;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 100%;
+}
+
+#q4body{
+    border: 3px solid green;
+    width: 50%;
+
+}
+.q4sec{
+    background: gray;
+    margin: 5px;
+}
+.q4item{
+    margin-left: 20px;
+    color:yellow;
+    font-size: 25px;
+}
+.q4item:hover{
+    background:yellow;
+    color: gray;
+}
+
+.q5sec{
+    position: absolute;
+    background: darkgray;
+    margin: 5px;
+    width: 70%;
+}
+
+#q5img{
+    width: 40%;
+    margin: 10px;
+    float:left;    
+}
+#q5lorem{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    margin: 2px;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questões 6, 7 e 8</title>
+</head>
+<body>
+    <button onclick="mudaTexto('white')">Mudar o texto para cor branca</button>
+        <button onclick="mudaTexto('black')">Mudar o texto para cor preta</button><br>
+        <button onclick="mudaFundo('black')">Mudar o fundo para preto</button>
+        <button onclick="mudaFundo('white')">Mudar o fundo para branco</button><br>
+        <button onclick="alteraFonte(true)">Aumentar Fonte</button>
+        <button onclick="alteraFonte(false)">Diminuir Fonte</button><br>
+        <button onclick="alteraMaiuscula(true)">Texto Maiúsculo</button>
+        <button onclick="alteraMaiuscula(false)">Texto Minúsculo</button>
+
+        <p id="paragrafo">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis fringilla augue. 
+        In dignissim libero dui, sit amet sodales tortor feugiat suscipit. Suspendisse et volutpat arcu. 
+        Aliquam et mi aliquet, pretium turpis non, cursus erat. Etiam suscipit mauris ante, non molestie turpis condimentum vel. 
+        Duis et velit ex. Suspendisse eget libero sed justo laoreet sollicitudin.
+
+        Etiam egestas sem sed enim ullamcorper ultrices. Suspendisse luctus condimentum ex ut fringilla. 
+        Vestibulum porttitor arcu ac euismod convallis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+        Nunc scelerisque scelerisque turpis, quis vestibulum odio interdum eget. In hac habitasse platea dictumst. 
+        Praesent vitae dui non mauris placerat placerat vestibulum non turpis. Cras cursus diam ex, nec lobortis ligula ultricies eget. 
+        Nulla eros diam, elementum at nisl sit amet, ultricies lobortis ex. Sed porttitor nunc at libero commodo iaculis. 
+        Sed blandit cursus nunc, non aliquam dui suscipit quis. Donec porttitor libero ac elit placerat, in maximus turpis tristique. 
+        Sed non porta odio, quis aliquam sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac bibendum justo.
+        
+        Vestibulum id ex convallis, finibus nunc vitae, vestibulum sem. Ut tristique justo ac eros dignissim tristique. 
+        Sed volutpat risus viverra rhoncus molestie. Donec facilisis vel erat non laoreet. Donec rutrum cursus mauris. 
+        Sed nec mauris ut nibh sodales mattis. Quisque sit amet elit et nulla commodo venenatis vel eu est. Etiam eu commodo eros. 
+        Etiam ornare ut urna nec facilisis.
+        
+        Vivamus finibus elit at odio ultrices, a dapibus libero porttitor. Ut eget congue massa. 
+        Morbi commodo, justo vel laoreet facilisis, augue risus semper ipsum, ut hendrerit turpis risus sit amet nisl. Ut ut feugiat mauris. 
+        Integer rhoncus risus diam, in eleifend tortor rutrum eu. Ut eget lacus rhoncus, elementum diam ac, auctor mi. 
+        Mauris feugiat nisl quis augue rhoncus dignissim. Nam eleifend nisi ac orci efficitur porttitor. Sed cursus quis nibh eget volutpat. 
+        Integer justo ex, imperdiet id eleifend sit amet, tincidunt laoreet purus. Morbi in eros at ex tempus fermentum at et tellus. 
+        Maecenas neque elit, lobortis ut ultrices a, varius sit amet libero.
+        
+        Nunc vehicula ipsum ac leo imperdiet, eu faucibus nunc ullamcorper. Maecenas nisl nunc, feugiat ac nulla et, lacinia porta diam. 
+        Quisque vitae leo rutrum felis mattis fringilla. Aenean nec diam vitae magna convallis aliquet et non arcu. 
+        Phasellus varius id arcu ut vulputate. Phasellus a mi finibus, aliquet lacus quis, dapibus erat. 
+        Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut scelerisque accumsan placerat. 
+        Praesent ligula nibh, porttitor vel metus eu, pellentesque imperdiet risus. 
+        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; 
+        Donec et porta justo. Maecenas a luctus mauris.</p>
+        
+
+</body>
+<script type="text/javascript">
+function mudaTexto(cor){
+    document.getElementById('paragrafo').style.color=cor;
+}
+
+function mudaFundo(cor){
+    document.getElementById('paragrafo').style.background=cor;
+}
+
+function alteraFonte(aumentar){
+    var texto = document.getElementById('paragrafo');
+    var tamanhoFonte=parseFloat(window.getComputedStyle(texto,null).getPropertyValue('font-size'));
+    if(aumentar){
+        texto.style.fontSize=(tamanhoFonte+1)+'px';
+    }else{
+        texto.style.fontSize=(tamanhoFonte-1)+'px';
+    }
+}
+
+function alteraMaiuscula(maiuscula){
+    var texto = document.getElementById('paragrafo');
+    if(maiuscula){
+        texto.style.textTransform="uppercase";
+    }else{
+        texto.style.textTransform="lowercase";
+    }
+}
+
+</script>
+</html>

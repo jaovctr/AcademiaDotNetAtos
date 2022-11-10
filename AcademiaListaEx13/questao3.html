@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 3</title>
+</head>
+<body>
+    <form onsubmit="mudaCor()">
+        <ul>
+            <li>
+                <input type="radio" name="cor" value="red" oninput="mudaCor(value)">Vermelho
+            </li>
+            <li>
+                <input type="radio" name="cor" value="green" oninput="mudaCor(value)">Verde
+            </li>
+            <li>
+                <input type="radio" name="cor" value="blue" oninput="mudaCor(value)">Azul
+            </li>
+            <li>
+                <input type="radio" name="cor" value="yellow" oninput="mudaCor(value)">Amarelo
+            </li>
+        </ul>
+    </form>
+</body>
+
+<script type="text/javascript">
+    function mudaCor(cor){
+        document.body.style.background=cor;
+    }
+
+</script>
+</html>

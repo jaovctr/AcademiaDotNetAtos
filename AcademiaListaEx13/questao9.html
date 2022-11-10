@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 9</title>
+</head>
+<body>
+    <form onchange="validaSenha()">
+        <input type="text" name="nome" id="nome">Nome<br>
+        <input type="password" name="senha" id="senha">Senha<br>
+        <input type="password" name="confirmaSenha" id="confirmaSenha" >Confirmar senha<br>        
+        <input type="submit" title="" name="enviar" id='enviar' disabled>
+    </form>
+</body>
+<script type="text/javascript">
+    function validaSenha(){
+        var nome=document.getElementById('nome');
+        var senha=document.getElementById('senha').value;
+        var confirmaSenha=document.getElementById('confirmaSenha').value;
+        var botao=document.getElementById('enviar');
+        var tamanho=senha.length;
+        if(nome && nome.value){
+            botao.title="Nome não preenchido";
+            botao.disabled;
+            if(tamanho>=6 && tamanho<=10){
+                if(senha===confirmaSenha){
+        
+                    botao.disabled=false;
+        
+                }else{
+                    botao.disabled=true;
+                    botao.title="As senhas não correspondem";
+                    
+                }
+            }else{
+                botao.disabled=true;
+                botao.title="Tamanho da senha inválido";
+            }
+        }else{
+            botao.disabled=true;
+            botao.title="Nome não preenchido";
+        }
+    }
+</script>
+</html>

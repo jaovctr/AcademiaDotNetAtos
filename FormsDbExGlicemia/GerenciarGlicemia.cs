@@ -41,13 +41,13 @@ namespace FormsDbExGlicemia
 
         public bool AdicionarGlicemia()
         {
-            Banco b=new Banco();
+            Banco b = new Banco();
             SqlConnection cn = b.abrirConexao();
             SqlTransaction tr = cn.BeginTransaction();
 
             SqlCommand cmd = new SqlCommand();
-            cmd.Connection= cn;
-            cmd.Transaction= tr;
+            cmd.Connection = cn;
+            cmd.Transaction = tr;
             cmd.CommandType = CommandType.Text;
 
             cmd.CommandText = "insert into MedidaGlicemia values(@valor,@dataMedida,@idPaciente);";

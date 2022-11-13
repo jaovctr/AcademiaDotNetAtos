@@ -12,6 +12,7 @@ namespace FormsDbExGlicemia
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             Application.Run(new Gerente());
+
         }
     }
 }

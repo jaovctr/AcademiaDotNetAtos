@@ -126,5 +126,11 @@ namespace FormsDbExGlicemia
             textBox_valorGlicemia.Enabled = true;
             button_salvarGlicemia.Enabled = true;
         }
+
+        private void button_gerPaciente_Click(object sender, EventArgs e)
+        {
+            var gerPaciente = new Paciente();
+            gerPaciente.Show();
+        }
     }
 }

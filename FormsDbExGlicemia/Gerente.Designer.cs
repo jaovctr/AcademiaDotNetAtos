@@ -48,6 +48,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.textBox_idGlicemia = new System.Windows.Forms.TextBox();
             this.dateTimePicker_data = new System.Windows.Forms.DateTimePicker();
+            this.button_gerPaciente = new System.Windows.Forms.Button();
             this.panel_cadastrar.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -226,18 +227,29 @@
             this.dateTimePicker_data.Size = new System.Drawing.Size(242, 23);
             this.dateTimePicker_data.TabIndex = 14;
             // 
-            // Form1
+            // button_gerPaciente
+            // 
+            this.button_gerPaciente.Location = new System.Drawing.Point(336, 189);
+            this.button_gerPaciente.Name = "button_gerPaciente";
+            this.button_gerPaciente.Size = new System.Drawing.Size(125, 23);
+            this.button_gerPaciente.TabIndex = 15;
+            this.button_gerPaciente.Text = "Gerenciar Pacientes";
+            this.button_gerPaciente.UseVisualStyleBackColor = true;
+            this.button_gerPaciente.Click += new System.EventHandler(this.button_gerPaciente_Click);
+            // 
+            // Gerente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(718, 450);
+            this.Controls.Add(this.button_gerPaciente);
             this.Controls.Add(this.panel_cadastrar);
             this.Controls.Add(this.button_editar);
             this.Controls.Add(this.button_deletar);
             this.Controls.Add(this.button_cadastrar);
             this.Controls.Add(this.button_conectar);
             this.Controls.Add(this.listView_exibirValores);
-            this.Name = "Form1";
+            this.Name = "Gerente";
             this.Text = "Gestão de Medidas Glicêmicas";
             this.panel_cadastrar.ResumeLayout(false);
             this.panel_cadastrar.PerformLayout();
@@ -267,5 +279,6 @@
         private DateTimePicker dateTimePicker_data;
         private Label label4;
         private TextBox textBox_idGlicemia;
+        private Button button_gerPaciente;
     }
 }

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calculadora.Calculadora">
+    <ContentPage.Resources>
+        <Style Class="numeros" TargetType="Button">
+            
+            <Setter Property="WidthRequest" Value="100"/>
+            <Setter Property="HeightRequest" Value="125"/>
+            <Setter Property="FontSize" Value="40"/>
+            <Setter Property="Background" Value="black"/>
+        </Style>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout Background="black">
+            <Label Text="Calculadora"
+                       FontSize="60"
+                       HorizontalTextAlignment="Start"
+                       TextColor="White"/>
+            <Label FontSize="150" HorizontalTextAlignment="End" TextColor="White" x:Name="expressao"/>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Button class="numeros" x:Name="ac" Text="AC"/>
+                <Button class="numeros" x:Name="apaga" Text="Del"/>
+                <Button class="numeros" x:Name="zero" Text="0"/>
+                <Button class="numeros" x:Name="divide" Text="/"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Button class="numeros" x:Name="sete" Text="7"/>
+                <Button class="numeros" x:Name="oito" Text="8"/>
+                <Button class="numeros" x:Name="nove" Text="9"/>
+                <Button class="numeros" x:Name="multiplica" Text="x"/>
+                
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Button class="numeros" x:Name="quatro" Text="4"/>
+                <Button class="numeros" x:Name="cinco" Text="5"/>
+                <Button class="numeros" x:Name="seis" Text="6"/>
+                <Button class="numeros" x:Name="soma" Text="+"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Button class="numeros" x:Name="um" Text="1"/>
+                <Button class="numeros" x:Name="dois" Text="2"/>
+                <Button class="numeros" x:Name="tres" Text="3"/>
+                <Button class="numeros" x:Name="subtrai" Text="-"/>
+            </StackLayout>
+            <StackLayout>
+                <Button class="numeros" x:Name="resultado" Text="=" Background="darkred"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
+    
